@@ -1,5 +1,5 @@
 #-------------------------
-# Delete Azure Enterprise Landing one Custom Policies by ManagementGroupName
+# Delete Azure Enterprise Landing Zone Custom Policy by ManagementGroupName
 #-------------------------
 
 $ManagementGroupName ='AZEnt'	
@@ -7,7 +7,7 @@ $ManagementGroupName ='AZEnt'
 # Get All Custom Azure Policy	
 $SelectedAzPolicyDefinition = Get-AzPolicyDefinition -ManagementGroupName $ManagementGroupName	
 
-# Remove single Custom Policy by name
+# Remove Single Custom Policy by name
 #Remove-AzureRmPolicyDefinition -Name $PolicyDefinition.Name -ManagementGroupName 'AZEnt' -Force
  
 
